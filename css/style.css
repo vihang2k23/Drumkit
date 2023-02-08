@@ -1,0 +1,26 @@
+.color {
+  color: black;
+  background-color: red;
+}
+.container {
+  display: grid;
+}
+.all-buttons {
+  grid-row: 1;
+  display: grid;
+}
+.btn {
+  display: grid;
+  -ms-grid-column-align: center;
+  text-align: center;
+  width: 20%;
+  height: 80%;
+
+  margin-top: 20px;
+  grid-column: 1;
+}
+#btn-10 {
+  display: grid;
+  grid-row: 3;
+  height: 50%;
+}
